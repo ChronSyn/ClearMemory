@@ -53,7 +53,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>icons8-software-installer-96.ico</ApplicationIcon>
+    <ApplicationIcon>icons8-memory-slot-96.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -117,6 +117,7 @@
     <Content Include="EmptyStandbyList.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="icons8-memory-slot-96.ico" />
     <Content Include="icons8-software-installer-96.ico" />
   </ItemGroup>
   <ItemGroup>
