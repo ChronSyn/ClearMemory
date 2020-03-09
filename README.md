@@ -1,5 +1,5 @@
 ﻿# ClearMemory
-[ALPHA] Clears memory working sets, modified page list, and standby lists every 4 hours
+[ALPHA] Clears memory working sets, modified page list, and standby lists every 15 minutes
 
 #### The problem
 
@@ -8,7 +8,7 @@ Windows 10 is great at memory management, except when it's not. For example, in 
 This becomes a problem as Windows will often start freezing momentarily.
 
 #### The solution
-An open source project that runs on any Windows PC with .net 3.5 or later that will attempt to clear the various memory cache lists every 4 hours. You can also clear them manually using a button inside the application.
+An open source project that runs on any Windows PC with .net 3.5 or later that will attempt to clear the various memory cache lists every 15 minutes. You can also clear them manually using a button inside the application.
 
 #### Usage
 This program runs as a desktop app and can be minimized to the notification area. The checkbox controls enabling and disabling the auto-clear functionality.
