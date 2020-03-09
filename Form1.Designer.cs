@@ -74,7 +74,8 @@
             this.label5.Size = new System.Drawing.Size(280, 39);
             this.label5.TabIndex = 14;
             this.label5.Text = "If this checkbox is checked, we\'ll try to clear working sets,\r\nmodified page list" +
-    ", priority 0 standby list and standby list\r\nevery 4 hours\r\n";
+    ", priority 0 standby list and standby list\r\nevery 15 minutes\r\n";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // cb_MonitorWake
             // 
@@ -102,7 +103,7 @@
             // tmr_monitorWakeup
             // 
             this.tmr_monitorWakeup.Enabled = true;
-            this.tmr_monitorWakeup.Interval = 14400000;
+            this.tmr_monitorWakeup.Interval = 900000;
             this.tmr_monitorWakeup.Tick += new System.EventHandler(this.tmr_monitorWakeup_Tick);
             // 
             // Form1

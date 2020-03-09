@@ -83,5 +83,9 @@ namespace UpdateOrchestratorStop
         private void tmr_monitorWakeup_Tick(object sender, EventArgs e) {
             clearCaches();
         }
+
+        private void label5_Click(object sender, EventArgs e) {
+
+        }
     }
 }
